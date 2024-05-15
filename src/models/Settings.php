@@ -122,7 +122,12 @@ class Settings extends Model
      */
     public function getNoCacheElements()
     {
-        return ['craft\elements\User', 'craft\elements\MatrixBlock', 'verbb\supertable\elements\SuperTableBlockElement'];
+        return [
+            'craft\elements\User', 
+            'craft\elements\MatrixBlock', 
+            'verbb\supertable\elements\SuperTableBlockElement',
+            'benf\neo\elements\Block',
+        ];
     }
 
     /**
