@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.9.2.1] - 2024-05-15
+## [2.0.0.1] - 2024-05-15
 - Fix issues with Neo / exclude benf\neo\elements\Block
  
 ## [1.9.2] - 2022-03-26
